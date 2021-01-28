@@ -3,7 +3,7 @@ from datetime import date
 
 class ParticleData(HouseInfo):
     def _convert_data(self, data):
-            recs = []
+        recs = []
         for rec in data:
             recs.append(float(rec))
         return recs
@@ -17,4 +17,6 @@ class ParticleData(HouseInfo):
         return self._convert_data(recs)
 
     def get_data_concentrations(self, data):
+            pass()
+
         
